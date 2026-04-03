@@ -10,9 +10,7 @@ const Login = () => {
 
     // 🚀 Backend API Adresi (Canlıya geçince burayı Render linkinle değiştireceksin)
 
-    const API_URL = window.location.hostname === 'localhost'
-        ? 'http://localhost:9000/api'
-        : 'https://loomix-xlp4.onrender.com/api';
+    const BASE_URL = "https://loomix-xlp4.onrender.com/api";
 
     const onFinish = async (values) => {
         message.loading({ content: 'Giriş yapılıyor...', key: 'loginState' });
