@@ -11,7 +11,7 @@ const PuantajYukle = () => {
     const uploadProps = {
         name: 'file', // Backend'e gidecek dosyanın parametre adı (req.file)
         multiple: false,
-        action: 'http://localhost:9000/api/puantaj/yukle', // Backend rotamız burası olacak
+        action: 'https://loomix-xlp4.onrender.com/api/puantaj/yukle', // Backend rotamız burası olacak
         accept: '.xlsx, .xls', // Sadece Excel dosyalarına izin ver
         onChange(info) {
             const { status } = info.file;
