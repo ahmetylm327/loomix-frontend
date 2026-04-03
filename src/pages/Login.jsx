@@ -3,6 +3,7 @@ import { Form, Input, Button, Typography, message, Divider } from 'antd';
 import { UserOutlined, LockOutlined, RocketOutlined, DotChartOutlined } from '@ant-design/icons';
 import { useNavigate, Link } from 'react-router-dom';
 
+
 const { Title, Text } = Typography;
 
 const Login = () => {
@@ -16,7 +17,7 @@ const Login = () => {
         message.loading({ content: 'Giriş yapılıyor...', key: 'loginState' });
 
         try {
-            const response = await fetch(`${API_URL}/auth/login`, {
+            const response = await fetch(`${BASE_URL}/auth/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

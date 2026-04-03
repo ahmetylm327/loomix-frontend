@@ -15,7 +15,7 @@ const Register = () => {
         message.loading({ content: 'Hesabınız oluşturuluyor...', key: 'regState' });
 
         try {
-            const response = await fetch(`${API_URL}/kayit`, {
+            const response = await fetch(`${BASE_URL}/kayit`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 // ⚠️ DİKKAT: Backend'deki authController 'kullaniciAdi' ve 'sifre' bekliyor!
