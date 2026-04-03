@@ -26,3 +26,11 @@ Projeyi yerel ortamınızda çalıştırmak için:
 1. Bu depoyu klonlayın:
    ```bash
    git clone [https://github.com/ahmetylm327/loomix-frontend.git](https://github.com/ahmetylm327/loomix-frontend.git)
+
+   ---
+## 🔐 Test Giriş Bilgileri (Değerlendirme İçin)
+Hocam, sistemi canlı ortamda test edebilmeniz için tanımlanmış örnek hesap bilgileri aşağıdadır:
+
+* **Giriş Paneli:** [https://loomix-panel.onrender.com](https://loomix-panel.onrender.com)
+* **Kullanıcı Adı:** `ahmet`  
+* **Şifre:** `patron123`        
