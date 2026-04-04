@@ -159,6 +159,8 @@ const UretimListesi = () => {
             title: 'Notlar',
             dataIndex: 'notes',
             key: 'notes',
+            width: 200,
+            ellipsis: true,
             render: n => n || '-'
         },
         {
@@ -186,7 +188,7 @@ const UretimListesi = () => {
         <div style={{ padding: '30px' }}>
             <Card>
                 <div style={{
-                    display: 'flex', justifyContent: 'space-between', marginBottom: 20,
+                    display: 'flex', justifyContent: 'space-between', marginBottom: 20, width: '100%'
                 }}>
                     <Title level={2}><AppstoreOutlined style={{ color: '#1890ff', marginRight: '10px' }} /> Üretim Takibi</Title>
                     <Button type="primary" icon={<PlusOutlined />} size="large" onClick={() => {
