@@ -9,7 +9,7 @@ const Register = () => {
     const navigate = useNavigate();
 
     // 🚀 API ADRESİ: Bilgisayarda localhost, canlıda Render linki
-    const BASE_URL = "https://loomix-xlp4.onrender.com";
+    const BASE_URL = "https://loomix-xlp4.onrender.com/api";
 
     const onFinish = async (values) => {
         message.loading({ content: 'Hesabınız oluşturuluyor...', key: 'regState' });
