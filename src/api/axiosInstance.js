@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: "https://loomix-xlp4.onrender.com",
+    baseURL: "https://loomix-xlp4.onrender.com/api",
     headers: {
         'Content-Type': 'application/json'
     }
