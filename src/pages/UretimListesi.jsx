@@ -196,7 +196,7 @@ const UretimListesi = () => {
                     </Button>
                 </div>
 
-                <Table columns={columns} dataSource={data} rowKey="_id" loading={loading} scroll={{ x: 'max-content' }} pagination={{ pageSize: 10 }} bordered />
+                <Table columns={columns} dataSource={data} rowKey="_id" loading={loading} scroll={{ x: 'max-content' }} pagination={{ pageSize: 8 }} bordered />
             </Card>
 
             <Modal
