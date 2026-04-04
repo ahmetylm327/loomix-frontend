@@ -120,7 +120,7 @@ const CariListesi = () => {
                             <Select.Option value="Fason Takip">Fason Takip</Select.Option>
                         </Select>
                     </Form.Item>
-                    <Form.Item name="vergiNo" label="Vergi No"><Input maxLength={10} /></Form.Item>
+                    <Form.Item name="vergiNo" label="Vergi No"><Input /></Form.Item>
                     <Form.Item name="telefon" label="Telefon"><Input /></Form.Item>
                     <Form.Item name="bakiye" label="Açılış Bakiyesi"><Input type="number" /></Form.Item>
                 </Form>
