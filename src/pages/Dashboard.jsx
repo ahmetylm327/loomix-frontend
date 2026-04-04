@@ -24,7 +24,7 @@ const Dashboard = () => {
     }, []);
 
     if (loading) return <div style={{ textAlign: 'center', marginTop: 50 }}><Spin size="large" /></div>;
-
+    console.log("Şu an stats içinde ne var?:", stats);
     return (
         <div style={{ padding: '30px' }}>
             <Title level={2} style={{ marginBottom: 25 }}>Atölye Genel Özet</Title>
