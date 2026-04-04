@@ -198,7 +198,7 @@ const UretimListesi = () => {
                     </Button>
                 </div>
                 <div style={{ width: '100%', overflowX: 'auto' }}>
-                    <Table columns={columns} dataSource={data} rowKey="_id" loading={loading} scroll={{ x: 'max-content' }} pagination={{ pageSize: 8 }} bordered />
+                    <Table columns={columns} dataSource={data} rowKey="_id" loading={loading} scroll={{ x: 'max-content' }} pagination={{ pageSize: 2 }} bordered />
                 </div>
             </Card >
 
