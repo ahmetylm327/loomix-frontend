@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Card, Typography, Button, Modal, Form, Select, InputNumber, DatePicker, Input, message, Tag, Space, Popconfirm } from 'antd';
+import { Table, Card, Typography, Button, Modal, Form, Select, InputNumber, DatePicker, Input, message, Tag, Space, Popconfirm, Tooltip } from 'antd';
 import { PlusOutlined, AppstoreOutlined, EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import axiosInstance from '../api/axiosInstance';
 import dayjs from 'dayjs';
@@ -159,9 +159,15 @@ const UretimListesi = () => {
             title: 'Notlar',
             dataIndex: 'notes',
             key: 'notes',
-            width: 200,
-            ellipsis: true,
-            render: n => n || '-'
+            width: 100,
+            ellipsis: {
+                showTitle: false, // Varsayılan tarayıcı başlığını kapatıyoruz
+            },
+            render: (text) => (
+                <Tooltip placement="topLeft" title={text}>
+                    {text}
+                </Tooltip>
+            ),
         },
         {
             title: 'İşlemler',
