@@ -174,7 +174,7 @@ const PersonelListesi = () => {
                             <Select.Option value="Saatlik">Saatlik</Select.Option>
                         </Select>
                     </Form.Item>
-                    <Form.Item name="ucretMiktari" label="Birim Ücret" rules={[{ required: true }]}><InputNumber style={{ width: '100%' }} /></Form.Item>
+                    <Form.Item name="ucretMiktari" label="Ücret Miktarı" rules={[{ required: true }]}><InputNumber style={{ width: '100%' }} /></Form.Item>
                     <Form.Item name="phoneNumber" label="Telefon"><Input /></Form.Item>
                 </Form>
             </Modal>
